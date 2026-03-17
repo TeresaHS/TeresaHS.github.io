@@ -4,32 +4,17 @@ body{
     margin: 0px;
 }
 
-aside{
+header{
+    justify-content: center;
     align-content: center;
     text-align: center;
     height: 140px;
+    background-color: #FCF8F8;
     z-index: 2;
-    position: fixed;
+    position: sticky;
     top: 0px;
     padding-top: 25px;
-    width: 500px;
-    float: right;
-    right: 0px;
 }
-
-article{
-    width: 850px;
-    box-sizing: border-box;
-    float: left;
-    padding-left: 50px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
-
-.cabeceraIncioSesion{
-    justify-content: right;
-}
-
 
 #headerSesion{
     height: 60px;
@@ -37,19 +22,18 @@ article{
 }
 
 #fieldsetSesion{
-    width: 280px;
-    height: 260px;
-    float: left;
-    margin-left: 30px;
-    padding: 10px 10px 20px 10px;
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    padding: 30px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.397);
     border-radius: 25px;
     border: none;
     z-index: 3;
     position: relative;
-    top: 170px;
+    top: 80px;
     text-align: center;
-    background-color: #0000008c;
+    background-color: #e5f5ff8c;
 }
 
 #fieldsetSesion legend{
@@ -58,14 +42,14 @@ article{
     text-align: center;
     position: relative;
     font-family: "Encode Sans SC";
-    color: #ffffff;
+    color: #054064;
     top: -25px;
 }
 
 #fieldsetSesion [type="email"], #fieldsetSesion [type="password"]{
     width: 80%;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
     font-family: "Montserrat";
@@ -77,21 +61,20 @@ article{
 
 #fieldsetSesion label{
     font-weight: 500;
-    color: white;
 }
 
 #fieldsetSesion [type="submit"]{
-    background-color: #CFC3A1;
+    background-color: #054064;
     width: 250px;
-    color: #454939;
-    font-weight: bolder;
+    color: white;
+    font-weight: 450;
     padding: 10px 15px;
     font-size: 13pt;
     font-family: "Montserrat";
     border-radius: 10px;
     border: 1px solid #3b444a73;
-    margin-top: 20px;
 }
+
 
 #imagenInicio{
     width: 300px;
@@ -102,25 +85,20 @@ article{
 }
 
 
-
 #fondoInicioSesion{
-    background-image: url("./IMG/fondo5.png");
+    background-image: url("./IMG/Fondo.png");
     background-size: cover; 
     background-attachment: fixed; 
     background-position: center; 
     background-repeat: no-repeat;
 }
 
-
 h1{
     font-family: "Encode Sans SC";
     font-size: 25pt;
+    color: #054064;
     font-weight: 600;
     margin: 0px;
-}
-
-.cabeceraIncioSesion{
-    color: #454939;
 }
 
 #minusTitulo{
@@ -134,7 +112,7 @@ h1{
 }
 
 #linea{
-    background-color: #86441F;
+    background-color: #F0A53E;
     height: 2px;
     width: 200px;
     border: none;
@@ -145,8 +123,7 @@ figure{
     margin: auto;
     margin-top: 20px;
     text-align: center;
-    background-color: #00000050;
-    border-radius: 20px;
+    background-color: #F0A53E;
     padding: 20px 0px;
 }
 
@@ -166,36 +143,31 @@ figure figcaption{
     margin-bottom: 30px;
 }
 
-.fotosInicial{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 100%;
-    border-radius: 20px;
-}
-
-.intro{
-    background-color: #DBCBBF;
-    color: #321301;
+#intro{
+    width: 1050px;
+    background-color: white;
+    color: #054064;
     box-shadow: 0px 5px 20px #00000021;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 30px 5px 30px;
     border: none;
     border-radius: 20px;
     margin: auto;
-    font-size: 10pt;
+    font-size: 12pt;
     font-weight: 500;
-    text-align: justify;
+    text-align: center;
 }
 
 nav{
-    background-color: none;
-    color: #54433B;
+    background-color: #FEF7EF;
+    color: #054064;
     text-align: center;
     justify-content: center;
+    border: 1.5px solid #E4DED7;
     height: 45px;
 }
 
 .enlaces{
-    font-weight: 600;
+    font-weight: 500;
     display: inline-block;
     margin: 0px 25px 0px 25px;
     align-content: center;
@@ -274,11 +246,11 @@ nav{
 
 a{
     text-decoration: none;
-    color: #54433B;
+    color: #054064;
 }
 
 a:active, a:visited, a:hover{
-    color: #54433B;
+    color: #054064;
 }
 
 h3{
@@ -329,12 +301,4 @@ h3{
     font-size: 40pt;
     font-family: Trebuchet MS;
     margin: 0px;
-}
-
-.fotoFondo{
-    background-image: url("./IMG/fondo7.png");
-    background-size: cover; 
-    background-attachment: fixed; 
-    background-position: center; 
-    background-repeat: no-repeat;
 }
