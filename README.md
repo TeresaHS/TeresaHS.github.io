@@ -1,2 +1,0 @@
-# TeresaHS.github.io
-GitPages
