@@ -104,7 +104,7 @@ article{
 
 
 #fondoInicioSesion{
-    background-image: url("../IMG/fondo5.png");
+    background-image: url("./IMG/fondo5.png");
     background-size: cover; 
     background-attachment: fixed; 
     background-position: center; 
@@ -332,7 +332,7 @@ h3{
 }
 
 .fotoFondo{
-    background-image: url("../IMG/fondo7.png");
+    background-image: url("./IMG/fondo7.png");
     background-size: cover; 
     background-attachment: fixed; 
     background-position: center; 
